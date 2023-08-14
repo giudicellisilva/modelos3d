@@ -1,0 +1,16 @@
+.back{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    
+    
+    img{
+        padding: 25px 0 0 25px;
+        height: 50px;
+    }
+
+    img:hover{
+        transition: all .4s;
+        transform: scale(1.1);
+    }
+}
