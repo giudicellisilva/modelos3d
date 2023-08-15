@@ -3,8 +3,12 @@ import styles from "./EsqueletoAxial.module.scss";
 import TitlePage from "components/TitlePage";
 import LinkModel from "components/LinkModel";
 import cranio from "assets/cranio-equino.png";
+import madibula from "assets/Captura_mandibula.png";
 
-const modelos = [{link: "./cranio", img: cranio, description: "Cranio Equino"}]
+const modelos = [
+                {link: "./cranio", img: cranio, description: "Crânio Equino"},
+                {link: "./mandibula", img: madibula, description: "Mandíbula Equino"},
+                ]
 const EsqueletoAxial = () =>{
     return(
         <div className={`${styles.esqueletoAxial} content`}>

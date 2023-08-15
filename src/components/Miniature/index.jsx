@@ -10,8 +10,10 @@ const Miniature = ({miniature, description}) =>{
     const [visible, setVisible] = useState(false);
 
     return(
-        <div className={`${styles.miniature} ${visible? "active" : ""}`} onMouseDown={() => setVisible(false)} >
-            { visible ? <div className={`${styles.arrow} ${visible? "activeArrow" : ""}`} onClick={() => setVisible(false)}><img src={arrowRight} /></div> : <div className={styles.arrow} onClick={() => setVisible(true)}><img src={arrow} /></div>}
+        <div className={`${styles.miniature} ${visible? "active" : ""}`} >
+            { visible ? 
+            <div className={`${styles.arrow} activeArrow`} onClick={() => setVisible(false)}><img src={arrowRight} /></div> 
+            : <div className={styles.arrow} onClick={() => setVisible(true)}><img src={arrow} /></div>}
             <img className={styles.miniature__img} src={miniature} alt={description}  />  
         </div>
     )

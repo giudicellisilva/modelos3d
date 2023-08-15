@@ -5,6 +5,8 @@
     flex-direction: column;
 
     &__modelos{
+        display: flex;
+        gap: 32px;
         flex: .82;
     }
 }
