@@ -1,0 +1,4 @@
+.active{
+    right: 10px !important;
+    transition: all 0.6s;
+}

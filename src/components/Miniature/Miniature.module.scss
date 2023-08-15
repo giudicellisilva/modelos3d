@@ -1,0 +1,41 @@
+@import "styles/variables.scss";
+
+.miniature{
+    height: 220px;
+    position: fixed;
+    bottom: 10px;
+    right: -275px;
+    z-index: 1;
+    transition: all 0.6s;
+
+    display: flex;
+
+    &__img{
+        height: inherit;
+    }
+   
+    
+}
+
+
+.arrow{
+    height: 220px;
+    background-color: $white;
+
+
+    display: flex;
+    align-items: center;
+
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+    transition: all 0.6s;
+
+    cursor: pointer;
+
+    img{
+        height: 32px;
+    }
+
+}
+
