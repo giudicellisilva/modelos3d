@@ -1,0 +1,21 @@
+@import "styles/variables.scss";
+
+.cranio{
+
+    &__title{
+        width: 100%;
+        position: fixed;
+        top: 10px;
+        z-index: 1;
+
+        h2{
+            width: 200px;
+            background-color: $green;
+            margin: 0 auto;
+            text-align: center;
+            padding: 20px 70px;
+            border-radius: 15px;
+        }
+
+    }
+}

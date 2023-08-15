@@ -1,0 +1,10 @@
+@import "styles/variables.scss";
+
+.titlePage{
+    width: 200px;
+    background-color: $gray;
+    color: $black;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+}
