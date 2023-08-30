@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './styles/index.css';
 import './styles/normalize.css';
 import App from './App';
-import 'bootstrap/dist/css/bootstrap.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
