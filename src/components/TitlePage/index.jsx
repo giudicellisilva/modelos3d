@@ -3,7 +3,7 @@ import styles from "./TitlePage.module.scss";
 const TitlePage = ({children}) =>{
 
     return(
-        <h2 className={styles.titlePage}>{children}</h2>
+        <h2 className={`${styles.titlePage}`}>{children}</h2>
     )
 }
 

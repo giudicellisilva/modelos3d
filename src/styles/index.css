@@ -1,10 +1,16 @@
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(67, 89, 113, 0);
 }
 
 code {
@@ -16,6 +22,6 @@ code {
   width: 100vw;
   height: 100vh;
 
-  background: rgb(49,75,54);
-  background: linear-gradient(90deg, rgba(49,75,54,1) 0%, rgba(38,134,88,1) 35%, rgba(40,230,139,1) 100%);
+  /* background: rgb(49,75,54);
+  background: linear-gradient(90deg, rgba(49,75,54,1) 0%, rgba(38,134,88,1) 35%, rgba(40,230,139,1) 100%); */
 }

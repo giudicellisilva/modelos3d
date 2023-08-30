@@ -1,9 +1,9 @@
 @import "styles/variables.scss";
 
 .titlePage{
-    width: 200px;
-    background-color: $gray;
-    color: $black;
+    border-radius: 12px;
+    background-color: $green-default;
+    color: $white;
     padding: 25px;
     text-align: center;
     text-decoration: none;

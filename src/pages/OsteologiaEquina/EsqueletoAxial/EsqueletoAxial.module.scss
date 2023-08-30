@@ -3,9 +3,13 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
+    gap: 40px;
+    margin-top: 32px;
 
     &__modelos{
         display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
         gap: 32px;
         flex: .82;
     }
