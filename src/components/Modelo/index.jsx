@@ -25,6 +25,8 @@ import sacro from "assets/modelos3d/Sacro.glb";
 import sacroMiniature from "assets/miniaturas/Sacro.png";
 import esterno from "assets/modelos3d/esterno.glb";
 import esternoMiniature from "assets/miniaturas/Esterno.png";
+import escapula from "assets/modelos3d/Escápula_Direita.glb";
+import escapulaMiniature from "assets/miniaturas/Escápula.png"
 
 const Modelo = () =>{
     const params = useParams();
@@ -41,6 +43,7 @@ const Modelo = () =>{
         {id: "5vertebra-lombar", modelo3d: vertebra_lombar, miniature: vertebra_lombarMiniature, description:"indicação da 5ª Vértebra lombar no esqueleto completo", title:"5ª Vértebra lombar Equina"},
         {id: "sacro", modelo3d: sacro, miniature: sacroMiniature, description:"indicação do Sacro no esqueleto completo", title:"Sacro Equino"},
         {id: "esterno", modelo3d: esterno, miniature: esternoMiniature, description:"indicação do Esterno no esqueleto completo", title:"Esterno Equino"},
+        {id: "escapula", modelo3d: escapula, miniature: escapulaMiniature, description:"indicação da Escápula no esqueleto completo", title:"Escápula Equino"},
     ];
 
     return(
@@ -48,7 +51,6 @@ const Modelo = () =>{
             <Back />
             {modelos.map( modelo => {
                 if(modelo.id == params.id){
-                    console.log("ass")
                     return(
                         <>
                             <div className={styles.modelo__title}>

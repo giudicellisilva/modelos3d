@@ -29,6 +29,7 @@ const modelos = [
                 {link: "./sacro", img: sacro, description: "Sacro Equino"},
                 {link: "./esterno", img: esterno, description: "Esterno Equino"},
                 ]
+                
 const EsqueletoAxial = () =>{
     return(
         <div className={`${styles.esqueletoAxial}`}>
