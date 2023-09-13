@@ -15,6 +15,8 @@ import vertebra_lombar from "assets/5vertebra-lombar-equino.png";
 import sacro from "assets/sacro.png";
 import esterno from "assets/esterno.png";
 
+import prev from "assets/prov.jpg";
+
 const modelos = [
                 {link: "./cranio", img: cranio, description: "Crânio Equino"},
                 {link: "./mandibula", img: madibula, description: "Mandíbula Equino"},
@@ -23,7 +25,7 @@ const modelos = [
                 {link: "./vertebra-cervical", img: vertebra_cervical, description: "3ª~6ª Vértebra cervical Equino"},
                 {link: "./7vertebra-cervical", img: vertebra7_cervical, description: "7ª Vértebra cervical Equino"},
                 {link: "./1vertebra-toracica", img: vertebra1_toracica, description: "1ª Vértebra torácica Equino"},
-                {link: "./8vertebra-toracica", img: vertebra8_toracica, description: "8ª Vértebra torácica Equino"},
+                {link: "./9vertebra-toracica", img: prev, description: "9ª Vértebra torácica Equino"},
                 {link: "./15vertebra-toracica", img: vertebra15_toracica, description: "15ª Vértebra torácica Equino"},
                 {link: "./5vertebra-lombar", img: vertebra_lombar, description: "5ª Vértebra lombar Equino"},
                 {link: "./sacro", img: sacro, description: "Sacro Equino"},

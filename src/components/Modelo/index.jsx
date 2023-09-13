@@ -17,7 +17,7 @@ import vertebra_cervicalMiniature from "assets/miniaturas/Vértebras cervicais (
 import vertebra7_cervical from "assets/modelos3d/7ª_Vértebra_Cervical.glb";
 import vertebra1_toracica from "assets/modelos3d/1ª_Vértebra_Torácica.glb";
 import vertebra_toracicaMiniature from "assets/miniaturas/Vértebras torácicas (1ª, 8ª, 15ª).png"
-import vertebra8_toracica from "assets/modelos3d/8ª_Vértebra_Torácica.glb";
+import vertebra9_toracica from "assets/modelos3d/9ª_Vértebra_Torácica.glb";
 import vertebra15_toracica from "assets/modelos3d/15ª_Vértebra_Torácica.glb";
 import vertebra_lombar from "assets/modelos3d/5ª_Vértebra_Lombar.glb";
 import vertebra_lombarMiniature from "assets/miniaturas/Vértebras lombares.png";
@@ -62,7 +62,7 @@ const Modelo = () =>{
         {id: "vertebra-cervical", modelo3d: vertebra_cervical, miniature: vertebra_cervicalMiniature, description:"indicação da 3ª~6ª Vértebra cervical no esqueleto completo", title:"3ª~6ª Vértebra cervical Equina"},
         {id: "7vertebra-cervical", modelo3d: vertebra7_cervical, miniature: vertebra_cervicalMiniature, description:"indicação da 7ª Vértebra cervical no esqueleto completo", title:"7ª Vértebra cervical Equina"},
         {id: "1vertebra-toracica", modelo3d: vertebra1_toracica, miniature: vertebra_toracicaMiniature, description:"indicação da 1ª Vértebra torácica no esqueleto completo", title:"1ª Vértebra torácica Equina"},
-        {id: "8vertebra-toracica", modelo3d: vertebra8_toracica, miniature: vertebra_toracicaMiniature, description:"indicação da 8ª Vértebra torácica no esqueleto completo", title:"8ª Vértebra torácica Equina"},
+        {id: "9vertebra-toracica", modelo3d: vertebra9_toracica, miniature: vertebra_toracicaMiniature, description:"indicação da 9ª Vértebra torácica no esqueleto completo", title:"9ª Vértebra torácica Equina"},
         {id: "15vertebra-toracica", modelo3d: vertebra15_toracica, miniature: vertebra_toracicaMiniature, description:"indicação da 15ª Vértebra torácica no esqueleto completo", title:"15ª Vértebra torácica Equina"},
         {id: "5vertebra-lombar", modelo3d: vertebra_lombar, miniature: vertebra_lombarMiniature, description:"indicação da 5ª Vértebra lombar no esqueleto completo", title:"5ª Vértebra lombar Equina"},
         {id: "sacro", modelo3d: sacro, miniature: sacroMiniature, description:"indicação do Sacro no esqueleto completo", title:"Sacro Equino"},
