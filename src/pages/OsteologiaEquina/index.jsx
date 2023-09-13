@@ -8,7 +8,7 @@ const OsteologiaEquina = () =>{
             <Back link="/"/>
             <ButtonLink link="./esqueleto-axial">Esqueleto axial</ButtonLink>
             <ButtonLink link="./esqueleto-apendicular-toracico" >Esqueleto apendicular torácico</ButtonLink>
-            <ButtonLink>Esqueleto apendicular pélvico</ButtonLink>
+            <ButtonLink link="./esqueleto-apendicular-pelvico" >Esqueleto apendicular pélvico</ButtonLink>
         </div>
     )
 }

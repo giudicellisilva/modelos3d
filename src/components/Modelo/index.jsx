@@ -26,7 +26,31 @@ import sacroMiniature from "assets/miniaturas/Sacro.png";
 import esterno from "assets/modelos3d/esterno.glb";
 import esternoMiniature from "assets/miniaturas/Esterno.png";
 import escapula from "assets/modelos3d/Escápula_Direita.glb";
-import escapulaMiniature from "assets/miniaturas/Escápula.png"
+import escapulaMiniature from "assets/miniaturas/Escápula.png";
+import umero from "assets/modelos3d/Úmero.glb";
+import umeroMiniature from "assets/miniaturas/Úmero.png";
+import radio_unal from "assets/modelos3d/Rádio-ulna.glb";
+import radio_unalMiniature from "assets/miniaturas/Rádio e Ulna.png";
+import carpo from "assets/modelos3d/Carpo.glb";
+import carpoMiniature from "assets/miniaturas/Carpo.png";
+import metacarpo from "assets/modelos3d/Metacarpo.glb";
+import metacarpoMiniature from "assets/miniaturas/Metacarpo.png";
+import falanges from "assets/modelos3d/Falanges.glb";
+import falangesMiniature from "assets/miniaturas/Falanges.png";
+import falnage_distal from "assets/modelos3d/Falange_distal.glb";
+import falange_distalMiniature from "assets/miniaturas/Falange distal.png";
+import pelve from "assets/modelos3d/Pelve.glb";
+import pelveMiniature from "assets/miniaturas/Pelve.png";
+import femur from "assets/modelos3d/Femur.glb";
+import femurMiniature from "assets/miniaturas/Fêmur.png";
+import patela from "assets/modelos3d/Patela.glb";
+import patelaMiniature from "assets/miniaturas/Patela.png";
+import tibia from "assets/modelos3d/Tíbia.glb";
+import tibiaMiniature from "assets/miniaturas/Tíbia.png";
+import tarso from "assets/modelos3d/Tarso.glb";
+import tarsoMiniature from "assets/miniaturas/Tarso.png";
+import metatarso from "assets/modelos3d/Metatarso.glb";
+import metatarsoMiniature from "assets/miniaturas/Metatarso.png"; 
 
 const Modelo = () =>{
     const params = useParams();
@@ -44,6 +68,18 @@ const Modelo = () =>{
         {id: "sacro", modelo3d: sacro, miniature: sacroMiniature, description:"indicação do Sacro no esqueleto completo", title:"Sacro Equino"},
         {id: "esterno", modelo3d: esterno, miniature: esternoMiniature, description:"indicação do Esterno no esqueleto completo", title:"Esterno Equino"},
         {id: "escapula", modelo3d: escapula, miniature: escapulaMiniature, description:"indicação da Escápula no esqueleto completo", title:"Escápula Equino"},
+        {id: "umero", modelo3d: umero, miniature: umeroMiniature, description:"indicação do Úmero no esqueleto completo", title:"Úmero Equino"},
+        {id: "radio-unal", modelo3d: radio_unal, miniature: radio_unalMiniature, description:"indicação do Rádio e unal no esqueleto completo", title:"Rádio e unal Equino"},
+        {id: "carpo", modelo3d: carpo, miniature: carpoMiniature, description:"indicação do Carpo no esqueleto completo", title:"Carpo Equino"},
+        {id: "metacarpo", modelo3d: metacarpo, miniature: metacarpoMiniature, description:"indicação do Metacarpo no esqueleto completo", title:"Metacarpo Equino"},
+        {id: "falanges", modelo3d: falanges, miniature: falangesMiniature, description:"indicação das falanges no esqueleto completo", title:"Falanges Equino"},
+        {id: "falange-distal", modelo3d: falnage_distal, miniature: falange_distalMiniature, description:"indicação da Falange distal no esqueleto completo", title:"Falange distal Equino"},
+        {id: "pelve", modelo3d: pelve, miniature: pelveMiniature, description:"indicação da Pelve no esqueleto completo", title:"Pelve Equino"},
+        {id: "femur", modelo3d: femur, miniature: femurMiniature, description:"indicação da Fêmur no esqueleto completo", title:"Fêmur Equino"},
+        {id: "patela", modelo3d: patela, miniature: patelaMiniature, description:"indicação da Patela no esqueleto completo", title:"Patela Equino"},
+        {id: "tibia", modelo3d: tibia, miniature: tibiaMiniature, description:"indicação da Tíbia no esqueleto completo", title:"Tìbia Equino"},
+        {id: "tarso", modelo3d: tarso, miniature: tarsoMiniature, description:"indicação do Tarso no esqueleto completo", title:"Tarso Equino"},
+        {id: "metatarso", modelo3d: metatarso, miniature: metatarsoMiniature, description:"indicação da Metatarso no esqueleto completo", title:"Metatarso Equino"},
     ];
 
     return(

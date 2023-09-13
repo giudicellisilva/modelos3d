@@ -5,9 +5,17 @@ import LinkModel from "components/LinkModel";
 
 import escapula from "assets/escapula-direita-equino.png";
 
+import prov from "assets/prov.jpg";
+
 const modelos =[
-    {link: "./escapula", img: escapula, description: "Escápula Equino"},
-    {link: "./escapula", img: "", description: "Crânio Equino"},
+    {link: "./escapula", img: prov  , description: "Escápula Equino"},
+    {link: "./umero", img: prov, description: "Úmero Equino"},
+    {link: "./radio-unal", img: prov, description: "Rádio e Unal Equino"},
+    {link: "./carpo", img: prov, description: "Carpo Equino"},
+    {link: "./metacarpo", img: prov, description: "Metacarpo Equino"},
+    {link: "./falanges", img: prov, description: "Falanges Equino"},
+    {link: "./falange-distal", img: prov, description: "Falange distal Equino"},
+
 ]
 
 const EsqueletoApendicularToracico = () =>{
