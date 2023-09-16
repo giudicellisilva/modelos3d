@@ -3,8 +3,6 @@ import styles from "./EsqueletoApendicularToracico.module.scss";
 import TitlePage from "components/TitlePage";
 import LinkModel from "components/LinkModel";
 
-import escapula from "assets/escapula-direita-equino.png";
-
 import prov from "assets/prov.jpg";
 
 const modelos =[
