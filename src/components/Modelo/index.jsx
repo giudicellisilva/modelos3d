@@ -38,6 +38,7 @@ import metacarpoMiniature from "assets/miniaturas/Metacarpo.png";
 import falanges from "assets/modelos3d/Falanges.glb";
 import falangesMiniature from "assets/miniaturas/Falanges.png";
 import falnage_distal from "assets/modelos3d/Falange_distal.glb";
+import falnage_distal_pelvico from "assets/modelos3d/Falange_distal_(membro_pélvico).glb";
 import falange_distalMiniature from "assets/miniaturas/Falange distal.png";
 import pelve from "assets/modelos3d/Pelve.glb";
 import pelveMiniature from "assets/miniaturas/Pelve.png";
@@ -74,6 +75,7 @@ const Modelo = () =>{
         {id: "metacarpo", modelo3d: metacarpo, miniature: metacarpoMiniature, description:"indicação do Metacarpo no esqueleto completo", title:"Metacarpo Equino"},
         {id: "falanges", modelo3d: falanges, miniature: falangesMiniature, description:"indicação das falanges no esqueleto completo", title:"Falanges Equino"},
         {id: "falange-distal", modelo3d: falnage_distal, miniature: falange_distalMiniature, description:"indicação da Falange distal no esqueleto completo", title:"Falange distal Equino"},
+        {id: "falange-distal-pelvico", modelo3d: falnage_distal, miniature: falange_distalMiniature, description:"indicação da Falange distal no esqueleto completo", title:"Falange distal Equino"},
         {id: "pelve", modelo3d: pelve, miniature: pelveMiniature, description:"indicação da Pelve no esqueleto completo", title:"Pelve Equino"},
         {id: "femur", modelo3d: femur, miniature: femurMiniature, description:"indicação da Fêmur no esqueleto completo", title:"Fêmur Equino"},
         {id: "patela", modelo3d: patela, miniature: patelaMiniature, description:"indicação da Patela no esqueleto completo", title:"Patela Equino"},

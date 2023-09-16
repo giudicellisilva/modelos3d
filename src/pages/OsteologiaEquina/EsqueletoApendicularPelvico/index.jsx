@@ -20,7 +20,7 @@ const modelos =[
     {link: "./tarso", img: tarso, description: "Tarso Equino"},
     {link: "./metatarso", img: metatarso, description: "Metatarso Equino"},
     {link: "./falanges", img: falanges, description: "Falanges Equino"},
-    {link: "./falange-distal", img: falangeDistal, description: "Falange distal Equino"},
+    {link: "./falange-distal-pelvico", img: falangeDistal, description: "Falange distal Equino"},
 
 ]
 
