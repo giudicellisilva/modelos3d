@@ -3,17 +3,24 @@ import styles from "./EsqueletoApendicularPelvico.module.scss";
 import TitlePage from "components/TitlePage";
 import LinkModel from "components/LinkModel";
 
-import prov from "assets/prov.jpg";
+import pelve from "assets/capas/pelve.png";
+import femur from "assets/capas/femur.png";
+import paleta from "assets/capas/patela.png";
+import tibia from "assets/capas/tibia.png";
+import tarso from "assets/capas/tarso.png";
+import metatarso from "assets/capas/metatarso.png";
+import falanges from "assets/capas/falanges.png";
+import falangeDistal from "assets/capas/falangeDistal.png";
 
 const modelos =[
-    {link: "./pelve", img: prov  , description: "Pelve Equino"},
-    {link: "./femur", img: prov, description: "Fêmur Equino"},
-    {link: "./patela", img: prov, description: "Patela Equino"},
-    {link: "./tibia", img: prov, description: "Tíbia Equino"},
-    {link: "./tarso", img: prov, description: "Tarso Equino"},
-    {link: "./metatarso", img: prov, description: "Metatarso Equino"},
-    {link: "./falanges", img: prov, description: "Falanges Equino"},
-    {link: "./falange-distal", img: prov, description: "Falange distal Equino"},
+    {link: "./pelve", img: pelve  , description: "Pelve Equino"},
+    {link: "./femur", img: femur, description: "Fêmur Equino"},
+    {link: "./patela", img: paleta, description: "Patela Equino"},
+    {link: "./tibia", img: tibia, description: "Tíbia Equino"},
+    {link: "./tarso", img: tarso, description: "Tarso Equino"},
+    {link: "./metatarso", img: metatarso, description: "Metatarso Equino"},
+    {link: "./falanges", img: falanges, description: "Falanges Equino"},
+    {link: "./falange-distal", img: falangeDistal, description: "Falange distal Equino"},
 
 ]
 

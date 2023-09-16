@@ -69,7 +69,7 @@ const Modelo = () =>{
         {id: "esterno", modelo3d: esterno, miniature: esternoMiniature, description:"indicação do Esterno no esqueleto completo", title:"Esterno Equino"},
         {id: "escapula", modelo3d: escapula, miniature: escapulaMiniature, description:"indicação da Escápula no esqueleto completo", title:"Escápula Equino"},
         {id: "umero", modelo3d: umero, miniature: umeroMiniature, description:"indicação do Úmero no esqueleto completo", title:"Úmero Equino"},
-        {id: "radio-unal", modelo3d: radio_unal, miniature: radio_unalMiniature, description:"indicação do Rádio e unal no esqueleto completo", title:"Rádio e unal Equino"},
+        {id: "radio-ulna", modelo3d: radio_unal, miniature: radio_unalMiniature, description:"indicação do Rádio e ulna no esqueleto completo", title:"Rádio e ulna Equino"},
         {id: "carpo", modelo3d: carpo, miniature: carpoMiniature, description:"indicação do Carpo no esqueleto completo", title:"Carpo Equino"},
         {id: "metacarpo", modelo3d: metacarpo, miniature: metacarpoMiniature, description:"indicação do Metacarpo no esqueleto completo", title:"Metacarpo Equino"},
         {id: "falanges", modelo3d: falanges, miniature: falangesMiniature, description:"indicação das falanges no esqueleto completo", title:"Falanges Equino"},

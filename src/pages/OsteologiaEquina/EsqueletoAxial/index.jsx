@@ -15,20 +15,6 @@ import vertebraToracica15 from "assets/capas/15vertebraToracica.png";
 import vertebraLombar5 from "assets/capas/5vertebraLombar.png";
 import sacro from "assets/capas/sacro.png";
 import esterno from "assets/capas/esterno.png";
-// import cranio from "assets/cranio-equino.png";
-// import madibula from "assets/Captura_mandibula.png";
-// import atlas from "assets/atlas-equino.png"
-// import axis from "assets/axis-equino.png";
-// import vertebra_cervical from "assets/vertebra-cervical-equino.png";
-// import vertebra7_cervical from "assets/7vertebra-cervical-equino.png";
-// import vertebra1_toracica from "assets/1vertebra-toracica-equino.png";
-// // import vertebra8_toracica from "assets/8vertebra-toracica-equino.png";
-// import vertebra15_toracica from "assets/15vertebra-toracica-equino.png";
-// import vertebra_lombar from "assets/5vertebra-lombar-equino.png";
-// import sacro from "assets/sacro.png";
-// import esterno from "assets/esterno.png";
-
-import prov from "assets/prov.jpg";
 
 const modelos = [
                 {link: "./cranio", img: cranio, description: "Crânio Equino"},
