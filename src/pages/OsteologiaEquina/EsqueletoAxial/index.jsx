@@ -17,18 +17,18 @@ import sacro from "assets/capas/sacro.png";
 import esterno from "assets/capas/esterno.png";
 
 const modelos = [
-                {link: "./cranio", img: cranio, description: "Crânio Equino"},
-                {link: "./mandibula", img: mandibula, description: "Mandíbula Equino"},
-                {link: "./atlas", img: atlas, description: "Atlas Equino"},
-                {link: "./axis", img: axis, description: "Áxis Equino"},
-                {link: "./vertebra-cervical", img: vertebra3a6, description: "3ª~6ª Vértebra cervical Equino"},
-                {link: "./7vertebra-cervical", img: vertebra7, description: "7ª Vértebra cervical Equino"},
-                {link: "./1vertebra-toracica", img: vertebraToracica1, description: "1ª Vértebra torácica Equino"},
-                {link: "./9vertebra-toracica", img: vertebraToracica9, description: "9ª Vértebra torácica Equino"},
-                {link: "./15vertebra-toracica", img: vertebraToracica15, description: "15ª Vértebra torácica Equino"},
-                {link: "./5vertebra-lombar", img: vertebraLombar5, description: "5ª Vértebra lombar Equino"},
-                {link: "./sacro", img: sacro, description: "Sacro Equino"},
-                {link: "./esterno", img: esterno, description: "Esterno Equino"},
+                {link: "./cranio", img: cranio, description: "Crânio"},
+                {link: "./mandibula", img: mandibula, description: "Mandíbula"},
+                {link: "./atlas", img: atlas, description: "Atlas"},
+                {link: "./axis", img: axis, description: "Áxis"},
+                {link: "./vertebra-cervical", img: vertebra3a6, description: "3ª~6ª Vértebra cervical"},
+                {link: "./7vertebra-cervical", img: vertebra7, description: "7ª Vértebra cervical"},
+                {link: "./1vertebra-toracica", img: vertebraToracica1, description: "1ª Vértebra torácica"},
+                {link: "./9vertebra-toracica", img: vertebraToracica9, description: "9ª Vértebra torácica"},
+                {link: "./15vertebra-toracica", img: vertebraToracica15, description: "15ª Vértebra torácica"},
+                {link: "./5vertebra-lombar", img: vertebraLombar5, description: "5ª Vértebra lombar"},
+                {link: "./sacro", img: sacro, description: "Sacro"},
+                {link: "./esterno", img: esterno, description: "Esterno"},
                 ]
                 
 const EsqueletoAxial = () =>{

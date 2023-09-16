@@ -13,14 +13,14 @@ import falanges from "assets/capas/falanges.png";
 import falangeDistal from "assets/capas/falangeDistal.png";
 
 const modelos =[
-    {link: "./pelve", img: pelve  , description: "Pelve Equino"},
-    {link: "./femur", img: femur, description: "Fêmur Equino"},
-    {link: "./patela", img: paleta, description: "Patela Equino"},
-    {link: "./tibia", img: tibia, description: "Tíbia Equino"},
-    {link: "./tarso", img: tarso, description: "Tarso Equino"},
-    {link: "./metatarso", img: metatarso, description: "Metatarso Equino"},
-    {link: "./falanges", img: falanges, description: "Falanges Equino"},
-    {link: "./falange-distal-pelvico", img: falangeDistal, description: "Falange distal Equino"},
+    {link: "./pelve", img: pelve  , description: "Pelve"},
+    {link: "./femur", img: femur, description: "Fêmur"},
+    {link: "./patela", img: paleta, description: "Patela"},
+    {link: "./tibia", img: tibia, description: "Tíbia"},
+    {link: "./tarso", img: tarso, description: "Tarso"},
+    {link: "./metatarso", img: metatarso, description: "Metatarso"},
+    {link: "./falanges", img: falanges, description: "Falanges"},
+    {link: "./falange-distal-pelvico", img: falangeDistal, description: "Falange distal"},
 
 ]
 
