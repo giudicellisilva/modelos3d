@@ -1,0 +1,17 @@
+.back{
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    z-index: 2;
+
+    cursor: pointer;
+    
+    img{
+        height: 50px;
+    }
+
+    img:hover{
+        transition: all .4s;
+        transform: scale(1.1);
+    }
+}

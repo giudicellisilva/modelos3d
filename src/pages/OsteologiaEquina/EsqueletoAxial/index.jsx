@@ -1,0 +1,50 @@
+import Back from "components/Back";
+import styles from "./EsqueletoAxial.module.scss";
+import TitlePage from "components/TitlePage";
+import LinkModel from "components/LinkModel";
+
+import cranio from "assets/capas/cranio-equino.png";
+import mandibula from "assets/capas/mandibula.png";
+import atlas from "assets/capas/atlas.png";
+import axis from "assets/capas/axis.png";
+import vertebra3a6 from "assets/capas/3-6Vértebra cervical.png";
+import vertebra7 from "assets/capas/7vertebraCervical.png";
+import vertebraToracica1 from "assets/capas/1vertebraToracica.png";
+import vertebraToracica9 from "assets/capas/9vertebraToracica.png";
+import vertebraToracica15 from "assets/capas/15vertebraToracica.png";
+import vertebraLombar5 from "assets/capas/5vertebraLombar.png";
+import sacro from "assets/capas/sacro.png";
+import esterno from "assets/capas/esterno.png";
+
+const modelos = [
+                {link: "./cranio", img: cranio, description: "Crânio"},
+                {link: "./mandibula", img: mandibula, description: "Mandíbula"},
+                {link: "./atlas", img: atlas, description: "Atlas"},
+                {link: "./axis", img: axis, description: "Áxis"},
+                {link: "./vertebra-cervical", img: vertebra3a6, description: "3ª~6ª Vértebra cervical"},
+                {link: "./7vertebra-cervical", img: vertebra7, description: "7ª Vértebra cervical"},
+                {link: "./1vertebra-toracica", img: vertebraToracica1, description: "1ª Vértebra torácica"},
+                {link: "./9vertebra-toracica", img: vertebraToracica9, description: "9ª Vértebra torácica"},
+                {link: "./15vertebra-toracica", img: vertebraToracica15, description: "15ª Vértebra torácica"},
+                {link: "./5vertebra-lombar", img: vertebraLombar5, description: "5ª Vértebra lombar"},
+                {link: "./sacro", img: sacro, description: "Sacro"},
+                {link: "./esterno", img: esterno, description: "Esterno"},
+                ]
+                
+const EsqueletoAxial = () =>{
+    return(
+        <div className={`${styles.esqueletoAxial}`}>
+            <Back link={"/osteologia-equina"} />
+            <TitlePage>Esqueleto axial</TitlePage>
+            <div className={styles.esqueletoAxial__modelos}>
+                {modelos.map( (modelo) => {
+                    return(
+                        <LinkModel link={modelo.link} img={modelo.img} description={modelo.description} />
+                    )
+                } )}
+            </div>
+        </div>
+    )
+}
+
+export default EsqueletoAxial;

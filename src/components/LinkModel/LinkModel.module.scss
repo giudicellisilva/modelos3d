@@ -1,0 +1,26 @@
+@import "styles/variables";
+
+.linkModel{
+    width: 300px;
+    height: 250px;
+    display: block;
+    
+    text-decoration: none;
+
+    &__img{
+        width: 100%;
+        background-size: 100%;
+        margin: 0;
+    }
+
+    &__description{
+        background-color: $green;
+        color: $white;
+        
+        margin: 0;
+        padding: 10px 0;
+        text-align: center;
+        font-size: 1.4rem;
+
+    }
+}

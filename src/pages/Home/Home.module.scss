@@ -1,0 +1,30 @@
+.home{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+
+    &__imgLapa{
+        margin-top: 32px;
+        height: 300px;
+    }
+
+    &__divImgs{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        flex: 1;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        gap: 20px;
+    }
+
+    &__imgFacepe{
+        height: 72px;
+    }
+
+    &__imgUfape{
+        height: 72px;
+    }
+}

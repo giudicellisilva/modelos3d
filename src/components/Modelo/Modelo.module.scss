@@ -1,0 +1,24 @@
+@import "styles/variables.scss";
+
+.modelo{
+
+    &__title{
+        width: 100%;
+        position: fixed;
+        top: 10px;
+        z-index: 1;
+        font-size: 1.39rem;
+        font-weight: bolder;
+
+        h2{
+            width: 60%;
+            background-color: $green;
+            color: $background_modelos;
+            margin: 0 auto;
+            text-align: center;
+            padding: 20px 70px;
+            border-radius: 15px;
+        }
+
+    }
+}
