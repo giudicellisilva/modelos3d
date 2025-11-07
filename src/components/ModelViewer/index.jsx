@@ -1,5 +1,3 @@
-// ModelViewer.jsx (Versão Final Limpa)
-
 import "./ModelViewer.scss";
 
 const ModelViewer = ({modelo, exposicao}) =>{ 
