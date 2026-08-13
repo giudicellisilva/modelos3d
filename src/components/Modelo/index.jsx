@@ -56,32 +56,32 @@ import metatarsoMiniature from "assets/miniaturas/Metatarso.png";
 const Modelo = () =>{
     const params = useParams();
     const modelos = [
-        {id: "cranio", modelo3d: cranio, miniature: cranioMiniature, description:"indicação do crânio no esqueleto completo", title:"Cranio"},
-        {id: "mandibula", modelo3d: mandibula, miniature: mandibulaMiniatura, description:"indicação da Mandíbula no esqueleto completo", title:"Mandíbula"},
-        {id: "atlas", modelo3d: atlas, miniature: atlasMiniature, description:"indicação do Atlas no esqueleto completo", title:"Atlas"},
-        {id: "axis", modelo3d: axis, miniature: axisMiniature, description:"indicação do Áxis no esqueleto completo", title:"Áxis"},
-        {id: "vertebra-cervical", modelo3d: vertebra_cervical, miniature: vertebra_cervicalMiniature, description:"indicação da 3ª~6ª Vértebra cervical no esqueleto completo", title:"3ª~6ª Vértebra cervical"},
-        {id: "7vertebra-cervical", modelo3d: vertebra7_cervical, miniature: vertebra_cervicalMiniature, description:"indicação da 7ª Vértebra cervical no esqueleto completo", title:"7ª Vértebra cervical"},
-        {id: "1vertebra-toracica", modelo3d: vertebra1_toracica, miniature: vertebra_toracicaMiniature, description:"indicação da 1ª Vértebra torácica no esqueleto completo", title:"1ª Vértebra torácica"},
-        {id: "9vertebra-toracica", modelo3d: vertebra9_toracica, miniature: vertebra_toracicaMiniature, description:"indicação da 9ª Vértebra torácica no esqueleto completo", title:"9ª Vértebra torácica"},
-        {id: "15vertebra-toracica", modelo3d: vertebra15_toracica, miniature: vertebra_toracicaMiniature, description:"indicação da 15ª Vértebra torácica no esqueleto completo", title:"15ª Vértebra torácica"},
-        {id: "5vertebra-lombar", modelo3d: vertebra_lombar, miniature: vertebra_lombarMiniature, description:"indicação da 5ª Vértebra lombar no esqueleto completo", title:"5ª Vértebra lombar"},
-        {id: "sacro", modelo3d: sacro, miniature: sacroMiniature, description:"indicação do Sacro no esqueleto completo", title:"Sacro"},
-        {id: "esterno", modelo3d: esterno, miniature: esternoMiniature, description:"indicação do Esterno no esqueleto completo", title:"Esterno"},
-        {id: "escapula", modelo3d: escapula, miniature: escapulaMiniature, description:"indicação da Escápula no esqueleto completo", title:"Escápula"},
-        {id: "umero", modelo3d: umero, miniature: umeroMiniature, description:"indicação do Úmero no esqueleto completo", title:"Úmero"},
-        {id: "radio-ulna", modelo3d: radio_unal, miniature: radio_unalMiniature, description:"indicação do Rádio e ulna no esqueleto completo", title:"Rádio e ulna"},
-        {id: "carpo", modelo3d: carpo, miniature: carpoMiniature, description:"indicação do Carpo no esqueleto completo", title:"Carpo"},
-        {id: "metacarpo", modelo3d: metacarpo, miniature: metacarpoMiniature, description:"indicação do Metacarpo no esqueleto completo", title:"Metacarpo"},
-        {id: "falanges", modelo3d: falanges, miniature: falangesMiniature, description:"indicação das falanges no esqueleto completo", title:"Falanges"},
-        {id: "falange-distal", modelo3d: falnage_distal, miniature: falange_distalMiniature, description:"indicação da Falange distal no esqueleto completo", title:"Falange distal"},
-        {id: "falange-distal-pelvico", modelo3d: falnage_distal_pelvico, miniature: falange_distalMiniature, description:"indicação da Falange distal no esqueleto completo", title:"Falange distal"},
-        {id: "pelve", modelo3d: pelve, miniature: pelveMiniature, description:"indicação da Pelve no esqueleto completo", title:"Pelve"},
-        {id: "femur", modelo3d: femur, miniature: femurMiniature, description:"indicação da Fêmur no esqueleto completo", title:"Fêmur"},
-        {id: "patela", modelo3d: patela, miniature: patelaMiniature, description:"indicação da Patela no esqueleto completo", title:"Patela"},
-        {id: "tibia", modelo3d: tibia, miniature: tibiaMiniature, description:"indicação da Tíbia no esqueleto completo", title:"Tìbia"},
-        {id: "tarso", modelo3d: tarso, miniature: tarsoMiniature, description:"indicação do Tarso no esqueleto completo", title:"Tarso"},
-        {id: "metatarso", modelo3d: metatarso, miniature: metatarsoMiniature, description:"indicação da Metatarso no esqueleto completo", title:"Metatarso"},
+        {id: "cranio", modelo3d: cranio, miniature: cranioMiniature, description:"indicação do crânio no esqueleto completo", title:"Cranio", exposicao: "1.5"},
+        {id: "mandibula", modelo3d: mandibula, miniature: mandibulaMiniatura, description:"indicação da Mandíbula no esqueleto completo", title:"Mandíbula", exposicao: "2.0"},
+        {id: "atlas", modelo3d: atlas, miniature: atlasMiniature, description:"indicação do Atlas no esqueleto completo", title:"Atlas", exposicao: "1.5"},
+        {id: "axis", modelo3d: axis, miniature: axisMiniature, description:"indicação do Áxis no esqueleto completo", title:"Áxis", exposicao: "1.5"},
+        {id: "vertebra-cervical", modelo3d: vertebra_cervical, miniature: vertebra_cervicalMiniature, description:"indicação da 3ª~6ª Vértebra cervical no esqueleto completo", title:"3ª~6ª Vértebra cervical", exposicao: "1.5"},
+        {id: "7vertebra-cervical", modelo3d: vertebra7_cervical, miniature: vertebra_cervicalMiniature, description:"indicação da 7ª Vértebra cervical no esqueleto completo", title:"7ª Vértebra cervical", exposicao: "1.5"},
+        {id: "1vertebra-toracica", modelo3d: vertebra1_toracica, miniature: vertebra_toracicaMiniature, description:"indicação da 1ª Vértebra torácica no esqueleto completo", title:"1ª Vértebra torácica", exposicao: "1.5"},
+        {id: "9vertebra-toracica", modelo3d: vertebra9_toracica, miniature: vertebra_toracicaMiniature, description:"indicação da 9ª Vértebra torácica no esqueleto completo", title:"9ª Vértebra torácica", exposicao: "0.7"},
+        {id: "15vertebra-toracica", modelo3d: vertebra15_toracica, miniature: vertebra_toracicaMiniature, description:"indicação da 15ª Vértebra torácica no esqueleto completo", title:"15ª Vértebra torácica", exposicao: "0.7"},
+        {id: "5vertebra-lombar", modelo3d: vertebra_lombar, miniature: vertebra_lombarMiniature, description:"indicação da 5ª Vértebra lombar no esqueleto completo", title:"5ª Vértebra lombar", exposicao: "0.8"},
+        {id: "sacro", modelo3d: sacro, miniature: sacroMiniature, description:"indicação do Sacro no esqueleto completo", title:"Sacro", exposicao: "2.0"},
+        {id: "esterno", modelo3d: esterno, miniature: esternoMiniature, description:"indicação do Esterno no esqueleto completo", title:"Esterno", exposicao: "1.5"},
+        {id: "escapula", modelo3d: escapula, miniature: escapulaMiniature, description:"indicação da Escápula no esqueleto completo", title:"Escápula", exposicao: "1.5"},
+        {id: "umero", modelo3d: umero, miniature: umeroMiniature, description:"indicação do Úmero no esqueleto completo", title:"Úmero", exposicao: "1.5"},
+        {id: "radio-ulna", modelo3d: radio_unal, miniature: radio_unalMiniature, description:"indicação do Rádio e ulna no esqueleto completo", title:"Rádio e ulna", exposicao: "1.5"},
+        {id: "carpo", modelo3d: carpo, miniature: carpoMiniature, description:"indicação do Carpo no esqueleto completo", title:"Carpo", exposicao: "1.5"},
+        {id: "metacarpo", modelo3d: metacarpo, miniature: metacarpoMiniature, description:"indicação do Metacarpo no esqueleto completo", title:"Metacarpo", exposicao: "1.5"},
+        {id: "falanges", modelo3d: falanges, miniature: falangesMiniature, description:"indicação das falanges no esqueleto completo", title:"Falanges", exposicao: "1.5"},
+        {id: "falange-distal", modelo3d: falnage_distal, miniature: falange_distalMiniature, description:"indicação da Falange distal no esqueleto completo", title:"Falange distal", exposicao: "1.5"},
+        {id: "falange-distal-pelvico", modelo3d: falnage_distal_pelvico, miniature: falange_distalMiniature, description:"indicação da Falange distal no esqueleto completo", title:"Falange distal", exposicao: "1.5"},
+        {id: "pelve", modelo3d: pelve, miniature: pelveMiniature, description:"indicação da Pelve no esqueleto completo", title:"Pelve", exposicao: "1.5"},
+        {id: "femur", modelo3d: femur, miniature: femurMiniature, description:"indicação da Fêmur no esqueleto completo", title:"Fêmur", exposicao: "1.5"},
+        {id: "patela", modelo3d: patela, miniature: patelaMiniature, description:"indicação da Patela no esqueleto completo", title:"Patela", exposicao: "1.5"},
+        {id: "tibia", modelo3d: tibia, miniature: tibiaMiniature, description:"indicação da Tíbia no esqueleto completo", title:"Tìbia", exposicao: "1.5"},
+        {id: "tarso", modelo3d: tarso, miniature: tarsoMiniature, description:"indicação do Tarso no esqueleto completo", title:"Tarso", exposicao: "1.5"},
+        {id: "metatarso", modelo3d: metatarso, miniature: metatarsoMiniature, description:"indicação da Metatarso no esqueleto completo", title:"Metatarso", exposicao: "1.5"},
     ];
 
     return(
@@ -94,7 +94,10 @@ const Modelo = () =>{
                             <div className={styles.modelo__title}>
                                 <h2>{modelo.title}</h2>
                             </div>
-                            <ModelViewer modelo={modelo.modelo3d} ></ModelViewer>
+                            <ModelViewer 
+                                modelo={modelo.modelo3d} 
+                                exposicao={modelo.exposicao} 
+                            ></ModelViewer>
                             <Miniature miniature={modelo.miniature} description={modelo.description} />
                         </>
                     )
